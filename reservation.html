@@ -1,0 +1,63 @@
+<html>
+<head>
+<link href="style/style2.css" rel="stylesheet" type="text/css"/>
+<body >
+
+ <div class="nav">
+    <div class="container">
+	<ul>
+	  <li><a href="home.html">Home</a></li>
+	  <li><a href="services.html">services</a></li>
+	  <li><a href="about.html">About</a></li>
+      <li><a href="sign up.html">Sign Up</a></li>
+	  <li><a href="reservation.html" class="active">reservation</a></li>
+	</ul>
+
+    <div align="left"></div>
+    </div>
+    </div>
+<div class="contact">
+
+<center><p>Reservation</p></center>
+<table>
+<form method = "post" action = "register.php">
+
+<tr>
+<td>User Name</td>
+<td><input type="text" name="username"/></td>
+</tr>
+
+<tr>
+<td>E-mail</td>
+<td><input type="email" name="email"/></td>
+</tr>
+
+
+<tr>
+<td>Password</td>
+<td><input type="password" name="pass" maxlength="15"/></td>
+</tr>
+    <tr>
+        <td>Country</td>
+        <td><select id="sel" name="country">
+                <option name="Sharm Elsheikh">Sharm Elsheikh</option>
+                <option name="Luxor">Luxor</option>
+                <option name="Giza">Giza</option>
+              
+            </select></td>
+    </tr>
+    <tr>
+        <td>Duration Time</td>
+        <td><input type="number" name="duration"></td>
+    </tr>
+</table>
+ 
+
+<p><input id="val" type="submit" value="Register"/></p>
+
+
+</form>
+</div>
+
+</body>
+</html>

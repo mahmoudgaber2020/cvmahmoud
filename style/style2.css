@@ -1,0 +1,90 @@
+body{
+padding-left:200px;
+padding-right:200px;
+background-color:#3a7fc2;
+padding-top:50px;
+background-image:url("../imgs/s.jpg");
+background-size:1500px;
+}
+
+.nav{
+
+width:750px;
+margin:10px;
+
+}
+.nav .active{
+	background-color:red;
+	border-radius: 10px;
+	color: white;
+}
+
+
+.nav a{
+color:black;
+
+font-weight:bold;
+text-shadow:1px 1px;
+padding: 7px;
+text-transform:uppercase;
+font-size:25px;
+text-decoration:none;
+}
+
+
+
+.nav ul{
+display:inline;
+margin:-5px;
+}
+
+.nav li{
+display:inline;
+
+}
+
+
+.contact{
+    text-align: center;
+padding-left:20px;
+padding-right:20px;
+padding-top:10px;
+border:1px solid;
+width:600px;
+margin-left:80px;
+box-shadow:5px 3px 6px 10px;
+height:500px;
+}
+
+
+.contact td{
+padding-left:40px;
+padding-top:10px;
+padding-bottom:10px;
+font-size:20px;
+margin:3px;
+box-shadow:2px 2px 2px 2px;
+}
+
+
+.contact p{
+
+font-size:35px;
+
+}
+p input{
+margin-left:30px;
+}
+
+input{
+height:40px;
+width:200px;
+box-shadow:2px 2px 2px 2px;
+}
+span input{
+height:3px;
+}
+#sel{
+    text-align: left;
+    font-size: 20px;
+}
