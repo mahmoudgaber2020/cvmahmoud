@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link href="style/style3.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="body">
+            <div class="nav">
+                <div class="container">
+                   <ul>
+                       <li><a href="home.html">Home</a></li>
+                       <li><a href="services.html">services</a></li>
+                       <li><a href="about.html">About</a></li>
+                       <li><a href="sign up.html" class="active">Sign Up</a></li>
+                       <li><a href="reservation.html">Reservation</a></li>
+                   </ul>
+                </div>
+            </div>
+            <div class="contain">
+
+                <form method = "post" action = "signup.php">
+                    <table>
+                        <tr>
+                            <td>User name</td>
+                            <td><input type="text" name="username"/></td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Password</td>
+                            <td><input type="password" name="password"  maxlength="15"/></td>
+                        </tr>
+                        <tr>
+                            <td>E-mail</td>
+                            <td><input type="email" name="email"/></td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Phone Number</td>
+                            <td><input type="text" name="phone"/></td>
+                        </tr>
+                    </table>
+                    <p id="ch">
+                        <input id="val" type="submit" value="Sign Up"/>
+                    </p>
+                </form>
+            </div>
+        </div>
+</body>
+</html>
